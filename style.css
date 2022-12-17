@@ -9,6 +9,9 @@ body {
 .container {
 	width: 80%;
 	margin: 0 auto;
+  padding: 28px 0;
+  align-self: auto;
+  display: flex;
 }
 
 header {
@@ -28,6 +31,7 @@ header::after {
 
 nav {
   float: right;
+  display: block;
 }
 
 nav ul {
@@ -72,3 +76,6 @@ nav a:hover::before {
   width: 100%;
 }
 
+div {
+  margin-top: 7px;
+}
