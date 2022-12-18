@@ -79,3 +79,13 @@ nav a:hover::before {
 div {
   margin-top: 7px;
 }
+
+footer {
+  color: rgb(255, 255, 255);
+  float: right;
+}
+
+a {
+  color: white;
+  margin-right: 30px       ;
+}
