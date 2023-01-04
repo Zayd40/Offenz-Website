@@ -1,4 +1,4 @@
-body {
+    body {
     font-family: Arial, sans-serif;
     color: #fff;
     background-color: #000;
@@ -18,7 +18,7 @@ body {
         height: 75px;
         object-fit: contain;
         margin-right: 20px;
-        }
+    }
     
     header nav ul {
     display: flex;
@@ -26,7 +26,7 @@ body {
     }
     
     header nav ul li {
-    margin-left: 20px;
+    margin-left: 25px;
     }
     
     header nav ul li a {
@@ -51,12 +51,14 @@ body {
     
     section h1, h2 {
     color: #fff;
+    align-self: center;
     }
     
     section p {
     color: #999;
     font-size: 18;
     line-height: 20px;
+    text-align: left;
     }
     
     .products {
@@ -102,6 +104,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    text-decoration: none;
     }
     
     footer {
@@ -114,13 +117,14 @@ body {
     }
     
     footer p {
-    margin-right: 20px;
+    margin-right: 2px;
     font-size: 14px;
     }
     
     footer ul {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
     }
     
     footer ul li {
@@ -132,4 +136,33 @@ body {
     height: 30px;
     object-fit: cover;
     border-radius: 50%;
+    }
+    .new-arrival {
+    text-align: center;
+    }
+
+    .shop-title {
+    text-align: center;
+    }
+
+    .products-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .products-shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    nav {
+    margin-right: 25px;
+    font-size: 16px;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
     }
