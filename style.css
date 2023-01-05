@@ -35,9 +35,6 @@
     }
     
     main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 50px 100px;
     background-color: #000;
     color: #fff;
@@ -117,14 +114,13 @@
     }
     
     footer p {
-    margin-right: 2px;
+    margin-right: 20px;
     font-size: 14px;
     }
     
     footer ul {
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
     }
     
     footer ul li {
@@ -153,8 +149,8 @@
 
     .products-shop {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
     }
 
     nav {
@@ -165,4 +161,14 @@
     a {
         color: inherit;
         text-decoration: none;
+    }
+
+    .shop-title {
+        align-items: center;
+    }
+
+    .main-index {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
