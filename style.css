@@ -121,6 +121,7 @@
     footer ul {
     display: flex;
     list-style: none;
+    flex-direction: row;
     }
     
     footer ul li {
@@ -149,8 +150,11 @@
 
     .products-shop {
     display: flex;
-    flex-wrap: wrap;
     align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     }
 
     nav {
@@ -172,3 +176,10 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .main-shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        }
