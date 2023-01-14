@@ -121,6 +121,7 @@
     display: flex;
     list-style: none;
     flex-direction: row;
+    justify-content: space-between;
     }
     
     footer ul li {
@@ -135,12 +136,18 @@
     }
 
     .new-arrival {
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     }
 
     .shop-title {
     display: flex;
-    text-align: left;
+    flex-wrap: nowrap;
+    justify-content: center;
     }
 
     .products-index {
@@ -174,9 +181,6 @@
 
     .main-index {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -190,6 +194,7 @@
     align-items: center;
     align-content: center;
     }
+
      ul {
     padding-left: 0px;
     }
@@ -199,5 +204,15 @@
     }
 
      .about-main {
-    text-align: left;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    }
+
+    .text-main {
+        display: flex;
+        text-align: left;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
     }
