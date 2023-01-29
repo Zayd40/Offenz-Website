@@ -1,5 +1,7 @@
+@font-face{font-family:Linear;font-weight:400 800;font-display:swap;src:url(https://static.linear.app/fonts/inter-var-subset-latin-opsz-sep27.woff2) format("woff2")}
+
     body {
-    font-family: Arial, sans-serif;
+    font-family: Linear;
     color: #fff;
     background-color: #000;
     }
