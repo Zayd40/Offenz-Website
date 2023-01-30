@@ -1,220 +1,220 @@
 @font-face{font-family:Linear;font-weight:400 800;font-display:swap;src:url(https://static.linear.app/fonts/inter-var-subset-latin-opsz-sep27.woff2) format("woff2")}
 
-    body {
-    font-family: Linear;
-    color: #fff;
-    background-color: #000;
-    }
-    
-    header {
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    }
-
-    header img {
-    width: 200px;
-    height: 75px;
-    object-fit: contain;
-    margin-right: 20px;
-    }
-    
-    header nav ul {
-    display: flex;
-    list-style: none;
-    }
-    
-    header nav ul li {
-    margin-left: 25px;
-    }
-    
-    header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    }
-    
-    main {
-    padding: 50px 100px;
-    background-color: #000;
-    color: #fff;
-    }
-    
-    section {
-    width: 60%;
-    background-color: #000;
-    color: #fff;
-    }
-    
-    section h1, h2 {
-    color: #fff;
-    align-self: center;
-    }
-    
-    section p {
-    color: #999;
-    font-size: 18;
-    line-height: 20px;
-    }
-    
-    .products {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
-    
-    .product {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    background-color: #000;
-    color: #fff;
-    }
-    
-    .product img {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    }
-    
-    .product h3 {
-    color: #fff;
-    font-size: 16px;
-    margin-top: 10px;
-    }
-    
-    .product p {
-    color: #fff;
-    font-size: 14px;
-    margin-top: 10px;
-    }
-    
-    .product button {
-    background-color: #fff;
-    color: #000;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    text-decoration: none;
-    }
-    
-    footer {
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    }
-    
-    footer p {
-    margin-right: 20px;
-    font-size: 14px;
-    }
-    
-    footer ul {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: space-between;
-    }
-    
-    footer ul li {
-    margin-left: 10px;
-    }
-    
-    footer ul li a img {
-    width: 30px;
-    height: 30px;
-    object-fit: cover;
-    border-radius: 50%;
-    }
-
-    .new-arrival {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    }
-
-    .shop-title {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    }
-
-    .products-index {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    }
-
-    .products-shop {
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    }
-
-    nav {
-    margin-right: 25px;
-    font-size: 16px;
-    }
-
-    a {
-    color: inherit;
-    text-decoration: none;
-    }
-
-    .shop-title {
-    align-items: center;
-    }
-
-    .main-index {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    }
-
-    .main-shop {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    }
-
-     ul {
-    padding-left: 0px;
-    }
-
-     li {
-    margin-left: 0px;
-    }
-
-     .about-main {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    }
-
-    .text-main {
+        body {
+        font-family: Linear;
+        color: #fff;
+        background-color: #000;
+        }
+        
+        header {
+        background-color: #000;
+        color: #fff;
         display: flex;
-        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        }
+    
+        header img {
+        width: 200px;
+        height: 75px;
+        object-fit: contain;
+        margin-right: 20px;
+        }
+        
+        header nav ul {
+        display: flex;
+        list-style: none;
+        }
+        
+        header nav ul li {
+        margin-left: 25px;
+        }
+        
+        header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        }
+        
+        main {
+        padding: 50px 100px;
+        background-color: #000;
+        color: #fff;
+        }
+        
+        section {
+        width: 60%;
+        background-color: #000;
+        color: #fff;
+        }
+        
+        section h1, h2 {
+        color: #fff;
+        align-self: center;
+        }
+        
+        section p {
+        color: #999;
+        font-size: 18;
+        line-height: 20px;
+        }
+        
+        .products {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        
+        .product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        background-color: #000;
+        color: #fff;
+        }
+        
+        .product img {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        }
+        
+        .product h3 {
+        color: #fff;
+        font-size: 16px;
+        margin-top: 10px;
+        }
+        
+        .product p {
+        color: #fff;
+        font-size: 14px;
+        margin-top: 10px;
+        }
+        
+        .product button {
+        background-color: #fff;
+        color: #000;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        text-decoration: none;
+        }
+        
+        footer {
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        }
+        
+        footer p {
+        margin-right: 20px;
+        font-size: 14px;
+        }
+        
+        footer ul {
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        
+        footer ul li {
+        margin-left: 10px;
+        }
+        
+        footer ul li a img {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 50%;
+        }
+    
+        .new-arrival {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        }
+    
+        .shop-title {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        }
+    
+        .products-index {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+    
+        .products-shop {
+        display: flex;
+        align-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        }
+    
+        nav {
+        margin-right: 25px;
+        font-size: 16px;
+        }
+    
+        a {
+        color: inherit;
+        text-decoration: none;
+        }
+    
+        .shop-title {
+        align-items: center;
+        }
+    
+        .main-index {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         align-content: center;
-    }
+        flex-direction: row;
+        flex-wrap: nowrap;
+        }
+    
+        .main-shop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        }
+    
+         ul {
+        padding-left: 0px;
+        }
+    
+         li {
+        margin-left: 0px;
+        }
+    
+         .about-main {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        }
+    
+        .text-main {
+            display: flex;
+            text-align: left;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+        }
